@@ -1,0 +1,65 @@
+﻿EarLab 0.6.1 — License and Source Information
+=============================================
+
+Copyright (C) 2026 EarLab.
+
+1. License
+
+EarLab is free software: you can redistribute it and/or modify it under the
+terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+EarLab is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
+more details.
+
+The full text of the GNU Affero General Public License version 3 is
+available at:
+
+    https://www.gnu.org/licenses/agpl-3.0.html
+    https://www.gnu.org/licenses/agpl-3.0.txt
+
+2. Source code
+
+The corresponding source code for this build is offered in
+SOURCE-OFFER.txt, which is installed next to this file. The exact Git
+revision used to build the shipped binaries is recorded in the
+BUILD-INFO.txt file distributed with the installer.
+
+3. JUCE framework
+
+EarLab is built with the JUCE framework, version 8.0.15, which is
+dual-licensed by Raw Material Software Limited under the GNU Affero
+General Public License v3 and the JUCE 8 commercial license.
+
+This build is distributed under the AGPLv3 option. Distributing EarLab as
+a closed-source or otherwise AGPL-incompatible commercial product
+requires a valid JUCE commercial license; until such a license is in
+place, EarLab binaries must be distributed under the AGPLv3 together with
+their corresponding source code.
+
+JUCE license information:
+    https://juce.com/legal/juce-8-licence/
+
+JUCE 8.0.15 source code:
+    https://github.com/juce-framework/JUCE/tree/8.0.15
+
+4. Third-party components
+
+See THIRD-PARTY-NOTICES.txt for the full list of bundled third-party
+components and their licenses, including the Microsoft Visual C++ 2022
+x64 runtime libraries shipped app-local next to the executable.
+
+5. Data and privacy
+
+EarLab stores its user data locally in %APPDATA%\EarLab and does not send
+it anywhere. Uninstalling EarLab keeps that folder by default.
+
+6. Internal build status
+
+This installer is an internal engineering build. Before distributing it
+to third parties, the JUCE licensing decision above and a CA-signed
+release build (instead of the development certificate used here) must be
+completed. See the project release checklist.

@@ -1,0 +1,45 @@
+EarLab 0.6.1 — Third-Party Notices
+==================================
+
+This file lists the third-party software included in, or required by,
+the EarLab 0.6.1 macOS build produced by this local build kit.
+
+1. JUCE 8.0.15
+--------------
+
+Copyright (c) Raw Material Software Limited.
+
+JUCE is dual-licensed under:
+  a) the GNU Affero General Public License version 3 (AGPLv3), and
+  b) the JUCE 8 commercial license.
+
+This EarLab build is distributed under the AGPLv3 option.
+
+License information: https://juce.com/legal/juce-8-licence/
+AGPLv3 text:        https://www.gnu.org/licenses/agpl-3.0.html
+JUCE 8.0.15 source: https://github.com/juce-framework/JUCE/tree/8.0.15
+
+Commercial distribution note: shipping EarLab as a closed-source or
+otherwise AGPL-incompatible commercial product requires a valid JUCE
+commercial license. Until that license is obtained, EarLab binaries must
+be distributed under the AGPLv3 together with their corresponding source
+code (included in the local build kit).
+
+2. JUCE dependencies bundled in the application
+-----------------------------------------------
+
+The following components are included in JUCE 8.0.15 and are linked into
+or embedded in the EarLab executable:
+
+- VST3 SDK — MIT License (Steinberg Media Technologies GmbH)
+- FLAC — BSD-style license (Xiph.Org Foundation)
+- Ogg Vorbis — BSD-style license (Xiph.Org Foundation)
+- zlib — zlib license (Jean-loup Gailly and Mark Adler)
+- libpng — zlib license (PNG Development Group)
+- jpeglib — Independent JPEG Group License
+- HarfBuzz — "Old MIT" license (HarfBuzz contributors)
+- SheenBidi — Apache License 2.0 (Abdullah Ibn Fahad)
+
+The full license texts for these components are part of the JUCE 8.0.15
+source tree (third_party/JUCE in the EarLab source repository, or the
+upstream JUCE repository linked above).

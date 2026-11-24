@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------- 构建产物
+/app/build/
+/app/build-*/
+/app/out/
+/app/.vs/
+# A7 安装包产物（setup/便携 ZIP/哈希/临时 stage），用 scripts/build-installer.ps1 重建
+/dist/
+build/
+out/
+.vs/
+.cache/
+__pycache__/
+*.pyc
+
+# 可执行文件与中间产物
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.obj
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.log
+# 启动/截图脚本重定向出来的空文件
+*.out
+*.err
+
+# ---------------------------------------------------------------- 依赖（用脚本获取，见 app/BUILD.md 第 2 节）
+# JUCE 8.0.15：python scripts/fetch_juce.py
+/third_party/JUCE/
+/third_party/_juce_tmp/
+/third_party/juce-*.zip
+# 便携版 CMake：python scripts/fetch_cmake.py
+/tools/
+
+# ---------------------------------------------------------------- 运行期与验收产物
+# 截图、扫描日志、测试用 profile 都是可再生成的，不入库
+/artifacts/
+.tmp/
+
+# 训练档案与插件缓存（运行时写入 %APPDATA%\EarLab，出现在仓库里属于误放）
+profile.json
+plugin-memory.json
+plugins.json
+
+# ---------------------------------------------------------------- 编辑器 / 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

@@ -1,0 +1,82 @@
+﻿EarLab 0.6.1 — Third-Party Notices
+==================================
+
+This file lists the third-party software included in, or required by,
+the EarLab 0.6.1 Windows x64 build distributed with this installer.
+
+1. JUCE 8.0.15
+--------------
+
+Copyright (c) Raw Material Software Limited.
+
+JUCE is dual-licensed under:
+  a) the GNU Affero General Public License version 3 (AGPLv3), and
+  b) the JUCE 8 commercial license.
+
+This EarLab build is distributed under the AGPLv3 option.
+
+License information: https://juce.com/legal/juce-8-licence/
+AGPLv3 text:        https://www.gnu.org/licenses/agpl-3.0.html
+JUCE 8.0.15 source: https://github.com/juce-framework/JUCE/tree/8.0.15
+
+Commercial distribution note: shipping EarLab as a closed-source or
+otherwise AGPL-incompatible commercial product requires a valid JUCE
+commercial license. Until that license is obtained, EarLab binaries must
+be distributed under the AGPLv3 together with their corresponding source
+code (see SOURCE-OFFER.txt).
+
+2. JUCE dependencies bundled in the application
+-----------------------------------------------
+
+The following components are included in JUCE 8.0.15 and are linked into
+or embedded in the EarLab executable:
+
+- VST3 SDK — MIT License (Steinberg Media Technologies GmbH)
+- FLAC — BSD-style license (Xiph.Org Foundation)
+- Ogg Vorbis — BSD-style license (Xiph.Org Foundation)
+- zlib — zlib license (Jean-loup Gailly and Mark Adler)
+- libpng — zlib license (PNG Development Group)
+- jpeglib — Independent JPEG Group License
+- HarfBuzz — "Old MIT" license (HarfBuzz contributors)
+- SheenBidi — Apache License 2.0 (Abdullah Ibn Fahad)
+
+The full license texts for these components are part of the JUCE 8.0.15
+source tree (third_party/JUCE in the EarLab source repository, or the
+upstream JUCE repository linked above).
+
+3. Microsoft Visual C++ 2022 x64 runtime
+----------------------------------------
+
+The installer ships the following Microsoft redistributable runtime
+libraries app-local next to EarLab Engine.exe:
+
+- msvcp140.dll
+- msvcp140_atomic_wait.dll
+- vcruntime140.dll
+- vcruntime140_1.dll
+
+Source: Visual Studio 2022 Build Tools, Microsoft Visual C++ 2022
+Redistributable (x64), version 14.44.35112.
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+These files are redistributed under the Microsoft Visual Studio license
+terms for the Visual C++ Redistributable. App-local deployment of these
+DLLs means end users do not need to install the VC++ Redistributable
+separately.
+
+Reference:
+https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+
+4. VST3 plugins
+---------------
+
+EarLab can host VST3 plugins installed on the user's machine. No
+third-party VST3 plugin is bundled with EarLab, and each plugin remains
+subject to its own license.
+
+5. Other
+--------
+
+EarLab itself is licensed under the GNU Affero General Public License
+version 3. See LICENSE.txt for details and SOURCE-OFFER.txt for the
+corresponding-source offer.
